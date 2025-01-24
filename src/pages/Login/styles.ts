@@ -3,6 +3,7 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const SSection = styled.section`
   height: 60vh;
+  min-height: calc(100vh - 8.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,6 +11,7 @@ export const SSection = styled.section`
   h1 {
     color: ${colors.primary};
     font-weight: 500;
+    text-shadow: 2px 2px ${colors.black};
     margin-bottom: 2rem;
     font-size: 2rem;
   }

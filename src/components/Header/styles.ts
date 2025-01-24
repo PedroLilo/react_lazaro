@@ -5,14 +5,14 @@ import { colors } from "../../styles/GlobalStyle"
 export const SHeader = styled.header`
   /* Cabeçalho */
   background-color: ${colors.primary};
-  border-bottom: 0.4rem solid ${colors.secondary};
+  border-bottom: 0.5rem solid ${colors.secondary};
   display: flex;
-  height: 6rem;
+  height: 5rem;
   picture {
     margin-left: 0.5rem;
     padding: 0.5rem;
     img {
-      height: 100%;
+      height: 90%;
     }
   }
   @media (max-width: 768px) {
@@ -38,11 +38,14 @@ export const SNavBar = styled.nav`
       align-items: center;
       a {
         text-decoration: none;
-        color: ${colors.black};
+        color: ${colors.white};
       }
     }
     li:hover {
       background-color: ${colors.secondary};
+    }
+    a:hover{
+      font-weight: bold;
     }
   }
   input#menu-toggle {

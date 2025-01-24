@@ -26,9 +26,11 @@ export const Card = ({ autor, titulo, tipo, lancamento, img }: ICard) => {
         <h5>Lançamento:</h5>
         <p>{lancamento}</p>
       </aside>
-            <aside>
-        <img src={img} alt="a" />
-      </aside>
+      <div>
+        <aside>
+          <img src={img} alt="a" />
+        </aside>
+      </div>
     </Section>
   );
 };

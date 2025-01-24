@@ -2,7 +2,7 @@ import { SSection } from "./styles";
 export function Adm() {
   return (
     <SSection>
-      Área Administrativa
+      <h1>Área Administrativa</h1>
     </SSection>
   );
 };

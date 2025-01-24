@@ -2,12 +2,14 @@ import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 export const SSection = styled.section`
   height: 60vh;
+  min-height: calc(100vh - 8.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   h1 {
     color: ${colors.primary};
+    text-shadow: 2px 2px ${colors.black};
     font-weight: 500;
     margin-bottom: 2rem;
     font-size: 2rem;

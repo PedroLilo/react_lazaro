@@ -1,7 +1,7 @@
 export const dados = [
   {
     id: 1,
-    autor: "a",
+    autor: "Miguel de Cervantes",
     titulo: "Dom Quixote",
     tipo: "Aventura e Romance",
     lancamento: "1605",
@@ -17,7 +17,7 @@ export const dados = [
   },
   {
     id: 3,
-    autor: "a",
+    autor: "Machado de Asis",
     titulo: "Helena",
     tipo: "Romance",
     lancamento: "1876",
@@ -25,7 +25,7 @@ export const dados = [
   },
   {
     id: 4,
-    autor: "a",
+    autor: "Clarice Linspector",
     titulo: "Hora da Estrela",
     tipo: "Romance",
     lancamento: "1977",
@@ -33,7 +33,7 @@ export const dados = [
   },
   {
     id: 5,
-    autor: "a",
+    autor: "J.K. Rowling",
     titulo: "Harry Potter e a Pedra Filosofal",
     tipo: "Fantasia e Aventura",
     lancamento: "1997",
@@ -41,7 +41,7 @@ export const dados = [
   },
   {
     id: 6,
-    autor: "a",
+    autor: "Dante Alighieri",
     titulo: "A Divina Comédia",
     tipo: "Poesia",
     lancamento: "1321",
@@ -49,7 +49,7 @@ export const dados = [
   },
   {
     id: 7,
-    autor: "japones",
+    autor: "Osamu Tezuka",
     titulo: "Astroboy",
     tipo: "Mangá",
     lancamento: "1952",
@@ -70,5 +70,13 @@ export const dados = [
     tipo: "Poesia",
     lancamento: "2020",
     img: "../../src/assets/JJK11.webp",
+  },
+  {
+    id: 9,
+    autor: "Kotteri",
+    titulo: "Veil",
+    tipo: "Mangá",
+    lancamento: "2024",
+    img: "../../src/assets/Veil.jpg",
   },
 ]

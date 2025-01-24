@@ -4,8 +4,9 @@ import { colors } from "../../styles/GlobalStyle"
 export const Section = styled.section`
   background-color: ${colors.quartenary};
   padding: 0.5rem;
-  width: 25rem;
+  width: 20rem;
   border-radius: 0.5rem;
+
   aside {
     display: flex;
     p {
@@ -17,8 +18,8 @@ export const Section = styled.section`
     }
   }
   img{
-      width:40%;
+      width:50%;
       border: 0.2rem solid ${colors.black};
-      margin-left: 8rem;
     }
+
 `
